@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: confluent
+
+logging:
+  level:
+    root: INFO
+    org.apache.kafka: WARN
+    pl.effectivedev: INFO
+    org.apache.kafka.streams.internals: DEBUG
